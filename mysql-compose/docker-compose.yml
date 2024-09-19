@@ -6,10 +6,10 @@ services:
     container_name: mysql_container
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: junior
-      MYSQL_DATABASE: vollmed_api
-      MYSQL_USER: user
-      MYSQL_PASSWORD: junior
+      MYSQL_ROOT_PASSWORD: senha_root
+      MYSQL_DATABASE: seu_banco
+      MYSQL_USER: seu_user
+      MYSQL_PASSWORD: senha_seu_user
     ports:
       - "3306:3306"
     volumes:
