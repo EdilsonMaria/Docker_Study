@@ -23,9 +23,11 @@ Este projeto contém um arquivo `docker-compose.yml` que define os serviços de 
 
 2. **Execução do DB no Docker:**
 
+    ```bash
     Com o repositorio  clonado execute:
     $ cd seu-repositorio (seja o postgres-compose ou o mysql-compose)
 
+    ```bash
     execute o comando:
     $ docker-compose up -d
 
